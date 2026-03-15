@@ -1,12 +1,12 @@
 {
   "name": "flock-tracker",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://Dgunten.github.io/flock-tracker/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
