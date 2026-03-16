@@ -1,7 +1,7 @@
 {
   "name": "flock-tracker",
   "version": "0.0.0",
-  "homepage": "https://devinvongunten.com/flock-tracker/",
+  "homepage": "https://devinvongunten.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
