@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/', // Change this from '/flock-tracker/' to just '/'
+  base: '/flock-tracker/', // This MUST match your repo name
 })
